@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import EvenOdd from "./compo/EvenOdd";
 import IntegerToRoman from "./compo/IntegerToRoman";
 import IsPalindrome from "./compo/IsPalindrome";
