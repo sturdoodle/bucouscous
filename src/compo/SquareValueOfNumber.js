@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SquareValueOfNumber() {
+function SquareValueOfNumber(props) {
   return (
     <div>SquareValueOfNumber</div>
   )

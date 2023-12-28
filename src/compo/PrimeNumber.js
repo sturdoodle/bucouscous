@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PrimeNumber() {
+function PrimeNumber(props) {
   return (
     <div>PrimeNumber</div>
   )

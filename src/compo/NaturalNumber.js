@@ -1,6 +1,6 @@
 import React from 'react'
 
-function NaturalNumber() {
+function NaturalNumber(props) {
   return (
     <div>NaturalNumber</div>
   )

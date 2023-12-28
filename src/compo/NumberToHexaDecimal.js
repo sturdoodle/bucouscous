@@ -1,9 +1,10 @@
 import React from 'react'
 
-function NumberToHexaDecimal() {
+function NumberToHexaDecimal(props) {
+  // console.log(parseFloat(props.num).toString(16),"Hexa")
   return (
     <div>
-      NumberToHexaDecimal
+      NumberToHexaDecimal is  {props.num.toString(16)}
     </div>
   )
 }

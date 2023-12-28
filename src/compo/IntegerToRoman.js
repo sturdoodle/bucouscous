@@ -1,6 +1,6 @@
 import React from 'react'
 
-function IntegerToRoman() {
+function IntegerToRoman(props) {
   return (
     <div>
       Integertoroman

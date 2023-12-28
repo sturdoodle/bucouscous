@@ -1,6 +1,6 @@
 import React from 'react'
 
-function IsPalindrome() {
+function IsPalindrome(props) {
   return (
     <div>
       IsPalindrome

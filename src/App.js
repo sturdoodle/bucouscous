@@ -9,23 +9,27 @@ import PrimeNumber from "./compo/PrimeNumber";
 import SquareRootOff from "./compo/SquareRootOff";
 import SquareValueOfNumber from "./compo/SquareValueOfNumber";
 
+
 function App() {
   const [numberr, setnumber] = useState("");
 
   function MainFunction() {
     if (numberr !== "") {
+      let s1=parseFloat(numberr)
+      // setnumber(parseFloat(numberr))?
       return (
         <>
           <p className="display-6 lead ">Results</p>
-          <EvenOdd num={numberr} />
-          <IntegerToRoman num={numberr} />
-          <IsPalindrome num={numberr} />
-          <NaturalNumber num={numberr} />
-          <NumberToHexaDecimal num={numberr} />
-          <PerfectSquare num={numberr} />
-          <PrimeNumber num={numberr} />
-          <SquareRootOff num={numberr} />
-          <SquareValueOfNumber num={numberr} />
+          <EvenOdd num={s1} />
+          <IntegerToRoman num={s1} />
+          <IsPalindrome num={s1} />
+          <NaturalNumber num={s1} />
+          <NumberToHexaDecimal num={s1} />
+          <PerfectSquare num={s1} />
+          <PrimeNumber num={s1} />
+          <SquareRootOff num={s1} />
+         
+          {/* <SquareValueOfNumber num={s1} /> */}
         </>
       )
     }
