@@ -5,6 +5,7 @@ function NumberToHexaDecimal(props) {
   return (
     <div>
       NumberToHexaDecimal is  {props.num.toString(16)}
+      <hr/>
     </div>
   )
 }

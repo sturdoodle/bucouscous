@@ -16,24 +16,25 @@ function App() {
   function MainFunction() {
     if (numberr !== "") {
       let s1=parseFloat(numberr)
-      // setnumber(parseFloat(numberr))?
+      if(numberr.length<=9){
       return (
         <>
-          <p className="display-6 lead ">Results</p>
+          <p className="text-center  display-5">Results</p>
           <EvenOdd num={s1} />
           <IntegerToRoman num={s1} />
           <IsPalindrome num={s1} />
           <NaturalNumber num={s1} />
           <NumberToHexaDecimal num={s1} />
-          <PerfectSquare num={s1} />
-          <PrimeNumber num={s1} />
-          <SquareRootOff num={s1} />
+          {/* <PerfectSquare num={s1} /> */}
+          {/* <PrimeNumber num={s1} /> */}
+          {/* <SquareRootOff num={s1} /> */}
          
           {/* <SquareValueOfNumber num={s1} /> */}
         </>
       )
     }
   }
+}
 
 
   return (
